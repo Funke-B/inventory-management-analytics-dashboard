@@ -7,6 +7,10 @@ monitor stock levels, stock movements, inventory value, reorder
 requirements, and physical stock variances across multiple warehouse
 locations.
 
+## Dashboard Preview
+
+![Inventory Dashboard](inventory-dashboard.png)
+
 The project combines structured inventory records with automated
 calculations and a management dashboard to turn operational inventory
 data into actionable business information.
