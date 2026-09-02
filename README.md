@@ -11,12 +11,6 @@ The project combines structured inventory records with automated
 calculations and a management dashboard to turn operational inventory
 data into actionable business information.
 
-> **Portfolio note:** The original workbook contains company-specific
-> information. Before making the repository public, remove or anonymize
-> any confidential business data, customer/supplier information,
-> internal pricing, or other information that you are not authorized to
-> publish.
-
 ## Business Problem
 
 Managing inventory across multiple locations can make it difficult to
@@ -24,7 +18,7 @@ maintain accurate stock records, identify low-stock products, reconcile
 physical counts with system quantities, and understand which products
 are driving inventory value and movement.
 
-The objective of this project was to create a centralized Excel system
+The objective of this project was to create a centralised Excel system
 that connects inventory transactions to a live reporting dashboard.
 
 ## Objectives
@@ -122,14 +116,14 @@ At the August 2026 reporting point, the dashboard showed:
   KPI                                       Value
   -------------------------------- --------------
   Products/SKUs                                81
-  Total stock units                        35,958
-  Inventory book value               ₦895,600,000
+  Total stock units                        XXXXX
+  Inventory book value               ₦XXXXXXX
   Products needing reorder                     20
-  Total stock in                      8,214 units
-  Total stock out                     2,847 units
-  Transfers to showroom               1,476 units
-  Intended stock-out sales value      ₦72,852,850
-  Stock adjustment value                 ₦426,000
+  Total stock in                      XXXXX
+  Total stock out                     XXXXX
+  Transfers to showroom               XXXXX
+  Intended stock-out sales value      XXXXX
+  Stock adjustment value                 XXXX
 
 ## Key Insights
 
@@ -139,10 +133,10 @@ The ten highest-value products account for a substantial portion of the
 inventory book value. The largest individual inventory values in the
 dataset include:
 
--   Mocha Face Scrub --- ₦90.43M
--   DRENCHED IN GOLD --- ₦84.70M
--   AGELESS Anti-Aging Face Cream --- ₦76.13M
--   RICE GLOW TONER --- ₦74.90M
+-   Mocha Face Scrub --- ₦XXXX
+-   DRENCHED IN GOLD --- ₦XXXX
+-   AGELESS Anti-Aging Face Cream --- ₦XXXX
+-   RICE GLOW TONER --- ₦XXXXX
 
 This indicates that inventory management should prioritize not only
 quantity but also the financial value tied up in each SKU.
