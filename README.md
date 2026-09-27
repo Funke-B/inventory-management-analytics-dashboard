@@ -147,9 +147,3 @@ The workbook brought together:
 
 Inventory Control & Reporting  
 Excel | Google Sheets | Inventory Management | Stock Reconciliation | ABC Classification | Multi-Location Inventory
-
-## Author
-
-**Funke Bolarin**
-
-Data Analytics \| Inventory Management \| Supply Chain
