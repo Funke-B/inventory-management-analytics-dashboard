@@ -1,4 +1,7 @@
-# Inventory Management & Analytics Dashboard
+# Inventory Management Dashboard
+> A multi-location inventory control and analysis project focused on stock reconciliation, inventory valuation, ABC classification, and identifying over- and under-stocked products.
+
+---
 
 ## Project Overview
 
