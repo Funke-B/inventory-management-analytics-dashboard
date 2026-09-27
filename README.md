@@ -28,7 +28,7 @@ The main objectives were to:
 -   Highlight stock shortages, surpluses, and negative inventory.
 -   Provide management with a concise dashboard for decision-making.
 ---
-![Inventory Dashboard](inventory-dashboard.png)
+![Inventory Dashboard](Inventory-Dashboard.png)
 Inventory Dashboard
 
 The dashboard summarized key inventory information in a management-friendly format.
@@ -131,9 +131,10 @@ The workbook brought together:
 - ABC Classification
 - Inventory Dashboard
 
-### Workbook Overview
+### Workbook Overview/Instructions
 
-![Workbook Overview](workbook-overview.png)
+![Workbook-overview](Workbook-overview.png)
+
 ---
 # 🔗 Related Work
 
