@@ -1,34 +1,19 @@
 # Inventory Management Dashboard
-> A multi-location inventory control and analysis project focused on stock reconciliation, inventory valuation, ABC classification, and identifying over- and under-stocked products.
+> A multi-location inventory control report focused on stock movements(in/out, Transfers) and tracking across warehouses, inventory valuation, ABC classification, and identifying out of stock products.
 
 ---
 
 ## Project Overview
 
-An Excel-based inventory management and analytics system designed to
+An Excel-based inventory management system designed to
 monitor stock levels, stock movements, inventory value, reorder
 requirements, and physical stock variances across multiple warehouse
 locations.
 
-## Dashboard Preview
-
-![Inventory Dashboard](inventory-dashboard.png)
-
-The project combines structured inventory records with automated
-calculations and a management dashboard to turn operational inventory
-data into actionable business information.
-
-## Business Problem
-
-Managing inventory across multiple locations can make it difficult to
-maintain accurate stock records, identify low-stock products, reconcile
-physical counts with system quantities, and understand which products
-are driving inventory value and movement.
-
-The objective of this project was to create a centralised Excel system
-that connects inventory transactions to a live reporting dashboard.
-
-## Objectives
+The analysis covered **81 SKUs with a total inventory value of approximately ₦769 million**.
+---
+## Project Objective
+The main objectives were to:
 
 -   Track inventory across three warehouse locations.
 -   Maintain a centralized product/SKU master list.
@@ -42,14 +27,59 @@ that connects inventory transactions to a live reporting dashboard.
 -   Compare physical stock counts with system quantities.
 -   Highlight stock shortages, surpluses, and negative inventory.
 -   Provide management with a concise dashboard for decision-making.
+---
+![Inventory Dashboard](inventory-dashboard.png)
 
-## Tools & Skills
+## Tools Used
+- Microsoft Excel
+- Google Sheets
 
-**Tools** - Microsoft Excel - Excel formulas - Data validation/drop-down
-lists - Conditional formatting - Dashboard design
+### Skills Demonstrated
 
-**Analytical skills** - Data cleaning and structuring - Inventory
-analysis - KPI development - Stock reconciliation - Exception/variance
+- Inventory Control
+- Stock Reconciliation
+- Physical Stock Counting
+- Inventory Valuation
+- ABC Classification
+- Multi-Location Inventory Management
+- Stock Level Analysis
+- Inventory Reporting
+
+---
+## Project Scope
+
+| Metric | Result |
+|---|---:|
+| SKUs Reviewed | **81** |
+| Total Inventory Value | **₦769M** |
+| Locations | **Multiple** |
+| Analysis Period | **July 2026** |
+| Classification | **ABC Analysis** |
+
+---
+# Inventory Workbook
+
+The inventory workbook was structured to support stock tracking, reconciliation, valuation, and analysis.
+
+---
+
+## Workbook Structure & Functions
+| Sheet | Main Function | What It Does |
+|---|---|---|
+| **Product Master** | Product database | Stores SKU, product name, category, cost price, selling price, supplier, reorder level, current stock, stock value and status. |
+| **Stock Movement** | Stock In / Stock Out | Records incoming and outgoing inventory transactions and provides a history of stock movement. |
+| **Transfers** | Location-to-location movement | Tracks products transferred between locations, including warehouse and showroom movements. |
+| **Stock Adjustments** | Inventory adjustments | Records SPA, MD's use, gifts, digital media, product exchanges, damaged products and variance adjustments. |
+| **Damages** | Damaged stock tracking | Records damaged or unusable products and the quantity/value lost. |
+| **Stock Count** | Physical inventory reconciliation | Records physical counts and compares counted quantities with system/book quantities to identify variances. |
+| **Inventory Valuation** | Stock value calculation | Calculates the value of inventory based on available quantities and product cost prices. |
+| **ABC Classification** | Inventory prioritisation | Classifies products based on their contribution to total inventory value to identify high-, medium- and low-value stock. |
+| **Stock Level Analysis** | Stock monitoring | Identifies products that are overstocked, understocked or within expected stock levels. |
+| **Dashboard** | Management reporting | Summarises inventory units, book value, stock movement, top-value products, shortfalls and other key inventory indicators. |
+
+---
+
+
 analysis - Business reporting - Data visualization
 
 **Excel functions used** - `SUMIFS` - `SUMIF` - `VLOOKUP` - `IF` -
